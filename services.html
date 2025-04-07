@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <title>Our Services | My Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">My Website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-danger text-white text-center py-5">
+        <div class="container">
+            <h1>Our Services</h1>
+            <p class="lead">High-quality solutions to support your digital growth and success</p>
+        </div>
+    </header>
+
+    <section class="container my-5">
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                        <i class="bi bi-code-slash display-4 text-danger mb-3"></i>
+                        <h5 class="card-title text-light">Web Development</h5>
+                        <p class="card-text">We build responsive, fast, and scalable websites using the latest technologies tailored to your business needs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                        <i class="bi bi-lightbulb-fill display-4 text-danger mb-3"></i>
+                        <h5 class="card-title text-light">IT Consulting</h5>
+                        <p class="card-text">Our experts offer strategic advice on IT infrastructure, digital transformation, and process optimization.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                        <i class="bi bi-bar-chart-line-fill display-4 text-danger mb-3"></i>
+                        <h5 class="card-title text-light">Digital Marketing</h5>
+                        <p class="card-text">From SEO to social media campaigns, we help businesses grow online with data-driven strategies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center mt-4">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                        <i class="bi bi-palette-fill display-4 text-danger mb-3"></i>
+                        <h5 class="card-title text-light">UI/UX Design</h5>
+                        <p class="card-text">Intuitive, user-friendly interfaces that not only look great but also convert and retain users effectively.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                        <i class="bi bi-phone-fill display-4 text-danger mb-3"></i>
+                        <h5 class="card-title text-light">Mobile Optimization</h5>
+                        <p class="card-text">Ensure your website performs flawlessly on every device with responsive, mobile-first development.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                        <i class="bi bi-cloud-check-fill display-4 text-danger mb-3"></i>
+                        <h5 class="card-title text-light">Cloud Integration</h5>
+                        <p class="card-text">Seamlessly integrate your business systems with cloud platforms for better scalability and performance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; <span id="year"></span> My Website. All Rights Reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
